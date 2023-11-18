@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    /* border: 2px solid red;  */
+  }
+  
+  body {
+    height: 100vh;
+    /* border: 1px solid blue;  */
+    /* height: 100vh;  */
+    text-align: center;
+    /* background-color: yellow; */
+    /* place-items: center;  */
+  
+      /* background-image: url("https://cdn.myportfolio.com/f236db8b7bc8b27683d5bf13306976a5/597632edc52341534ceff43c_rw_1200.jpg?h=58f8abae37a4647293841423777bc976");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; */
+  }
+  
+  h1 {
+    font-size: 45px;
+  }
+    
+    h2{
+      font-size: 17px;
+      font-style: italic; 
+    }
+  
+    .startP {
+      margin: 0%;
+      padding: 5px; 
+      width: 250px; 
+      height: 25px; 
+    }
+  
+    ul{
+      text-align: left;
+    }
+    
+  
+  
+  /*BOXES****************************/
+
+  
+
+  .background {
+    /* background-color: whitesmoke;  */
+  }
+  
+  .box {
+    background-color: #00b0ff;
+    height: 200px;
+    min-width: 300px;
+    margin: 2px; 
+    
+  
+    border: 5px solid black;
+  }
+  
+  #flex {
+    display: flex; 
+    justify-content: center; 
+    /* align-items: center; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;  */
+    /* transform: translate(-50, -50); */
+  }
+  
+  
+  /* WALDO */
+  
+  .waldo {
+    position: relative;
+    left: 550px; 
+    top: 100px; 
+  width: %; 
+  /* Object-fit: cover;  */
+  }
+  
+  /* BACKGROUND IMAGE *
+  
+  
+  /*POPUP****************************/
+  #popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+    z-index: 100;
+  }
+  
+  #popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    outline: 15px solid yellow; 
+    text-align: center;
+    
+  }
+  
+  #popup-content button {
+    width: 250px; 
+    margin: 10px, 50px
+    
+  }
+  
+  
+  
+  /* PAGE INSTRUCTION BUTTON**************************** */
+  #instructional-button {
+    padding: 10px;
+    background-color: #ffff00;
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+    left: 1375px;
+    top: 45px;
+    /* margin-top: 150px; */
+    height: 50px; 
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem; 
+    border: 1px solid #469;
+    box-shadow: 0px 4px; 
+  }
+  
+  #instructional-button:hover {
+    /* background-color: #000; */
+    }
+  
+  
+  #instructional-button:active {
+      /* margin-top: 10px;  */
+      /* margin-bottom: 16px;  */
+      box-shadow: 0px 0px; 
+      /* background-color: #f0f0f0; */
+      color: #ff0; 
+      background-color: #000;
+    }
+  
+  
+  
+  
+     /* .one {
+      transform-origin: top right; 
+      transform: rotate(0deg); 
+      transition: all 2s; 
+      position: relative;
+      z-index: 1;
+    } */
+  
+    /* .one:hover{
+      transform: rotate(180deg); 
+    } */
+    
+
+    /* div{
+        position: relative;
+    }
+  
+    .pic1 {
+      position: absolute; 
+      z-index: -1;
+      top: 0; 
+      left: 0;
+    }
+    */
+
+  
+   .box-container {
+  position: relative;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #00b0ff;
+  border: 5px solid black;
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition: all 2s;
+  z-index: 1;
+}
+
+.box.open {
+  transform: rotate(180deg);
+}
+
+.pic1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: -1;
+}
+
+      
