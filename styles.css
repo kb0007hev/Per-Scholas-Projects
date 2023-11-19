@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -46,7 +47,7 @@ ul {
 }
 
 .waldoText {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   /* background-color: black; */
   color: #000; 
@@ -88,8 +89,8 @@ ul {
   color: #000;
   cursor: pointer;
   position: absolute;
-  left: 1375px;
-  top: 45px;
+  left: 1825px;
+  top: 35px;
   height: 50px;
   width: 200px;
   border-radius: 10px;
@@ -139,9 +140,51 @@ ul {
 }
 
 .autoOpen:hover {
-  transform: rotate(180deg);
+  transform: translate(800px);
   will-change: transform;
 }
+
+
+.autoOpenLeft{
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition: all 2s ease-in-out .3s; 
+  will-change: transform;
+}
+
+.autoOpenLeft:hover {
+  transform: translate(-800px);
+  will-change: transform;
+}
+
+
+.autoOpenUP{
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition: all 2s ease-in-out .3s; 
+  will-change: transform;
+}
+
+.autoOpenUP:hover {
+  transform: translateY(-800px);
+  will-change: transform;
+}
+
+
+.autoOpenDown{
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition: all 2s ease-in-out .3s; 
+  will-change: transform;
+}
+
+.autoOpenDown:hover {
+  transform: translateY(800px);
+  will-change: transform;
+}
+
+
+
 
 .pic {
   position: absolute;
