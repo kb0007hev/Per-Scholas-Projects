@@ -20,43 +20,49 @@
     };
 
     instructionButton.open();
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  // CLASSES 
+
+  const location = {
+       timeoutId: null,
+     
+       init: function() {
+         const boxes = document.querySelectorAll('.box');
+
+         boxes.forEach((box) => {
+           box.addEventListener('click', location.boxClickHandler)[0];
+         });
+       },
+     
+       boxClickHandler: function() {
+         clearTimeout(location.timeoutId); // Clear the previous timeout, if any
+     
+         // Rotate the box on click
+         this.classList.toggle('open');
+     
+         // Toggle the visibility of the iframe behind the box
+         const iframe = document.querySelector('.pic');
+         iframe.style.visibility = this.classList.contains('open') ? 'visible' : 'hidden';
+     
+         // Close the box after 2 seconds
+       location.timeoutId = setTimeout(() => {
+           this.classList.remove('open');
+           iframe.style.visibility = 'hidden';
+           // Display alert message after the box closes
+           alert("What in the hell!\nWhat's the matter with you? Can't you see I'm using it !!!");
+         alert("Home owner called the cops on you for breaking into his home. You have been arrested and taken into jail.");
+         alert("Game Over you lose!");
+         }, 8000);
+       }
+     };
+     
+     // Call the init function to initialize the event listeners
+     location.init();
   
+
   
 
+   
+///////////////////////////////////////////////////////////////////////////////////
+//OBJECTS
 
-
-      const BoxProgram = {
-        timeoutId: null,
-      
-        init: function() {
-          const boxes = document.querySelectorAll('.box');
-      
-          boxes.forEach((box) => {
-            box.addEventListener('click', BoxProgram.boxClickHandler);
-          });
-        },
-      
-        boxClickHandler: function() {
-          clearTimeout(BoxProgram.timeoutId); // Clear the previous timeout, if any
-      
-          // Rotate the box on click
-          this.classList.toggle('open');
-      
-          // Toggle the visibility of the iframe behind the box
-          // const iframe = document.querySelector('.pic1');
-          // iframe.style.visibility = this.classList.contains('open') ? 'visible' : 'hidden';
-      
-          // Close the box after 2 seconds
-          // BoxProgram.timeoutId = setTimeout(() => {
-          //   this.classList.remove('open');
-          //   iframe.style.visibility = 'hidden';
-            // Display alert message after the box closes
-          //   alert("What in the hell!\nWhat's the matter with you? Can't you see I'm using it !!!");
-          // alert("Home owner called the cops on you for breaking into his home. You have been arrested and taken into jail.");
-          // alert("Game Over you lose!");
-          // }, 8000);
-        }
-      };
-      
-      // Call the init function to initialize the event listeners
-      BoxProgram.init();
