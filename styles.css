@@ -13,9 +13,11 @@ h1 {
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 25px;
   font-style: italic;
 }
+
+
 
 .startP {
   margin: 0%;
@@ -41,6 +43,14 @@ ul {
   position: relative;
   left: 550px;
   top: 100px;
+}
+
+.waldoText {
+  font-size: 40px;
+  font-weight: bold;
+  /* background-color: black; */
+  color: #000; 
+
 }
 
 #popup {
@@ -119,6 +129,18 @@ ul {
 
 .open {
   transform: rotate(180deg);
+}
+
+.autoOpen{
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition: all 2s ease-in-out .3s; 
+  will-change: transform;
+}
+
+.autoOpen:hover {
+  transform: rotate(180deg);
+  will-change: transform;
 }
 
 .pic {
