@@ -140,7 +140,7 @@ ul {
 }
 
 .autoOpen:hover {
-  transform: translate(800px);
+  transform: translate(300px) scale(-1);
   will-change: transform;
 }
 
@@ -148,12 +148,12 @@ ul {
 .autoOpenLeft{
   transform-origin: top right;
   transform: rotate(0deg);
-  transition: all 2s ease-in-out .3s; 
+  transition: all 2s ease-in-out 3s; 
   will-change: transform;
 }
 
 .autoOpenLeft:hover {
-  transform: translate(-800px);
+  transform: translate(-800px) scale(-5);
   will-change: transform;
 }
 
@@ -206,3 +206,17 @@ ul {
   z-index: -1;
 } */
 
+
+/* @keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 10s;
+} */
