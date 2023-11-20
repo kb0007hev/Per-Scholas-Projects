@@ -15,7 +15,7 @@
 ### IMPORTANT INSTRUCTIONS
 >  In the game each block represents a location. 
 > You must access one block or one location at a time. 
-> Make sure to allow the block/location to completely close before going into the next block or going into the   next location, otherwise the game will not function as designed. 
+> Make sure to allow the video to completely finish on it's own before closing the block. You will know the video is finished when you see a Pop-up message for each box with a video. Allow the block/location to completely close before going into the next block or going into the  next location, otherwise the game will not function as designed. 
 
 ### DESCRIPTION
 
