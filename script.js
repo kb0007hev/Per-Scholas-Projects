@@ -1,3 +1,28 @@
+// Add an event listener to the instructional button to show the popup dialog
+const instructionButton = {
+  open: function() {
+    const openbutton = document.getElementById('instructional-button');
+    openbutton.addEventListener('click', this.showPopup);
+
+    const closeButton = document.getElementById('close-button');
+    closeButton.addEventListener('click', this.hidePopup);
+  },
+
+  showPopup: function() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  },
+
+  hidePopup: function() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+};
+
+instructionButton.open();
+
+
+
 let isAudioPlaying = false;
 
 function playAudioDelayed(audioId, delay) {
