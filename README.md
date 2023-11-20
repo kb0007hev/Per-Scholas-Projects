@@ -1,8 +1,14 @@
-# GAME:  _WHERE IS WALDO_
+#  _WHERE IS WALDO_
 
 ### MOTIVATION
 
 > This is a Per Scholas Project I built as part of our end of month Project to demonstrate software app/game  creation.
+
+### TECHNOLOGIES
+> No frameworks 
+> html
+> css
+> JavaScript 
 
 ### INSTRUCTIONS
 
