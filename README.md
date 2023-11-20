@@ -1,4 +1,6 @@
 #  _WHERE IS WALDO_
+####  WEBSITE: 
+ - https://kb0007hev.github.io/github.io-Where-Is-Waldo/
 
 ### MOTIVATION
 
@@ -10,18 +12,22 @@
 > css
 > JavaScript 
 
-### INSTRUCTIONS
+### IMPORTANT INSTRUCTIONS
+>  In the game each block represents a location. 
+> You must access one block or one location at a time. 
+> Make sure to allow the block/location to completely close before going into the next block or going into the   next location, otherwise the game will not function as designed. 
+
+### DESCRIPTION
 
 > This web app is based on finding Waldo.
->The Journey is dangerous, you can go to jail, get fined, and even risk death looking for waldo. If you don't find >him or you die, you lose.
+
+>The Journey is dangerous, you can go to jail, get fined, and even risk death looking for waldo. 
+>If you don't find him or you die, you lose.
 >If you find him, you win.
->All said the main point of this program is to understand that everything that you see, hear, and interact with was >brought together in pieces, or built literally from the ground up. So, the Main take away of this program is to >show how amazing software development can be at creating something from nothing, and building and what >the endless what if possibilities are of building something in the digital world that can make a real difference for >us in the physical world.
 
-Well, I hope you enjoy yourself and have fun.
+>Some will see this as a game, some will see this as a mini adventure. 
+>All said the main point of this program is to understand that everything that you see, hear, and interact with was brought together in pieces, or built literally from the ground up. So, the Main takeaway of this program is to show how amazing software development can be at creating something from literally nothing, and giving some light to the endless what if possibilities, of building something in the digital world that can make a real difference for us in the physical world.
 
-### CODE
-
-> This project was built using pure HTML, CSS, and JAVASCRIPT
 
 ### CREDITS
 
